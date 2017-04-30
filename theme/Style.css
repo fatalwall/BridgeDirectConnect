@@ -1,0 +1,42 @@
+﻿/* 
+ *Copyright (C) 2017 Peter Varney - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the MIT license, 
+ *
+ * You should have received a copy of the MIT license with
+ * this file. If not, visit : https://github.com/fatalwall/BridgeDirectConnect
+ */ 
+
+.container {
+    white-space: nowrap;
+    margin: auto;
+    width: 40%;
+}
+
+.message {
+    background-color: #ffffcc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 98%;
+    white-space: normal;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.UserID {
+    display: inline-block;
+    float:right;
+    text-align:right;
+    vertical-align: top;
+    font-weight: bold;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.82em; 
+}
