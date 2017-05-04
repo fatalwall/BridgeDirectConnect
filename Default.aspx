@@ -49,10 +49,8 @@
 				XDocument xml = XDocument.Load(new StringReader(cs.SectionInformation.GetRawXml()));
 				//Response.Write(xml.ToString().Contains("<!-- <action type=\"Rewrite\" url=\"External/?AccessCode={R:1}\" /> -->"));
 				if (xml.ToString().Contains("<action type=\"Rewrite\" url=\"Internal/?AccessCode={R:1}\" />")==true) {
-					Response.Write("Internal Mode");
 					PrimaryWindowsAuth = true;
 				}else{
-				Response.Write("External Mode");
 					PrimaryWindowsAuth = false;
 				}
 			}
