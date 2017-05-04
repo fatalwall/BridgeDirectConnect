@@ -4,6 +4,10 @@ The design is to eliminate situation where you will may spending 15+ minutes at 
 
 **Implementation**
 
+- Prerequisites
+  - IIS 7 +
+  - IIS feature asp.net 4.5 is installed
+  - URL Rewrite installed (https://www.iis.net/downloads/microsoft/url-rewrite)
 - From Internet Information Services (IIS) Manager
 - Create a new website
 - Copy code into web directory
